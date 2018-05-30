@@ -1,4 +1,7 @@
 #Made changes for using VS2017 and QT5.11 with webengine 5.11.0
+#Please dont use yet since qt5.11 still not included with appveyor vs2017 images!
+#will be building QT5.11 here first then continue with building Falkon please note will configure Webengine with:
+# -webengine-proprietary-codecs make sure you modify for your own use case and license requirments!
 image:
     - Visual Studio 2017
 
